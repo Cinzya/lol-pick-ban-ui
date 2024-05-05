@@ -8,17 +8,19 @@ import supSplash from "./assets/sup_splash_placeholder.svg";
 const pickSplashes = [topSplash, jungSplash, midSplash, botSplash, supSplash];
 
 const makeUrlAbsolute = (url, backendUrl) => {
-  if (!url || !url.startsWith('/cache')) {
+  if (!url || !url.startsWith("/cache")) {
     return url;
   }
 
-  const httpBackendUrl = backendUrl.replace('ws://', 'http://').replace('wss://', 'https://');
-  const components = httpBackendUrl.split('/')
+  const httpBackendUrl = backendUrl
+    .replace("ws://", "http://")
+    .replace("wss://", "https://");
+  const components = httpBackendUrl.split("/");
 
-  return components[0] + '//' + components[2] + url;
+  return components[0] + "//" + components[2] + url;
 };
 
-const putPlaceholders = (team,  backendUrl) => {
+const putPlaceholders = (team, backendUrl) => {
   for (let i = 0; i < 5; i++) {
     // Picks
     // Check if exists
@@ -26,15 +28,15 @@ const putPlaceholders = (team,  backendUrl) => {
       // Does not exists, push
       team.picks.push({
         champion: {
-          loadingImg: pickSplashes[i]
-        }
+          loadingImg: pickSplashes[i],
+        },
       });
     } else {
       // Exists, check!
       const pick = team.picks[i];
       if (!pick.champion || !pick.champion.loadingImg) {
         pick.champion = {
-          loadingImg: pickSplashes[i]
+          loadingImg: pickSplashes[i],
         };
         // pick.spell1 = null;
         // pick.spell2 = null;
@@ -46,9 +48,22 @@ const putPlaceholders = (team,  backendUrl) => {
       if (pick.spell2) {
         pick.spell2.icon = makeUrlAbsolute(pick.spell2.icon, backendUrl);
       }
-      pick.champion.loadingImg = makeUrlAbsolute(pick.champion.loadingImg, backendUrl);
-      pick.champion.splashImg = makeUrlAbsolute(pick.champion.splashImg, backendUrl);
-      pick.champion.squareImg = makeUrlAbsolute(pick.champion.squareImg, backendUrl);
+      pick.champion.loadingImg = makeUrlAbsolute(
+        pick.champion.loadingImg,
+        backendUrl
+      );
+      pick.champion.splashCenteredImg = makeUrlAbsolute(
+        pick.champion.splashCenteredImg,
+        backendUrl
+      );
+      pick.champion.splashImg = makeUrlAbsolute(
+        pick.champion.splashImg,
+        backendUrl
+      );
+      pick.champion.squareImg = makeUrlAbsolute(
+        pick.champion.squareImg,
+        backendUrl
+      );
     }
 
     // Bans
@@ -56,18 +71,25 @@ const putPlaceholders = (team,  backendUrl) => {
       // Does not exist
       team.bans.push({
         champion: {
-          squareImg: banImg
-        }
+          squareImg: banImg,
+        },
       });
     } else {
       const ban = team.bans[i];
       if (!ban.champion || !ban.champion.squareImg) {
         ban.champion = {
-          squareImg: banImg
-        }
+          squareImg: banImg,
+        };
       }
 
-      ban.champion.squareImg = makeUrlAbsolute(ban.champion.squareImg, backendUrl);
+      ban.champion.squareImg = makeUrlAbsolute(
+        ban.champion.squareImg,
+        backendUrl
+      );
+      ban.champion.splashCenteredImg = makeUrlAbsolute(
+        ban.champion.splashCenteredImg,
+        backendUrl
+      );
     }
   }
 };
@@ -78,6 +100,6 @@ const convertState = (state, backendUrl) => {
     putPlaceholders(state.redTeam, backendUrl);
   }
   return state;
-}
+};
 
 export default convertState;

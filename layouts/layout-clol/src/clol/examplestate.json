@@ -1,335 +1,150 @@
 {
-  "leagueConnected": false,
-  "champSelectActive": true,
-  "blaueTeam": {
-    "bans": [
-      {
-        "champion": {
-          "id": 266,
-          "name": "Aatrox",
-          "idName": "Aatrox",
-          "loadingImg": "/cache/14.9.1/champion/Aatrox_loading.jpg",
-          "splashImg": "/cache/14.9.1/champion/Aatrox_splash.jpg",
-          "splashCenteredImg": "/cache/14.9.1/champion/Aatrox_centered_splash.jpg",
-          "squareImg": "http://localhost:8999/cache/14.9.1/champion/Aatrox_square.png",
-          "square256Img": "/assets/256x256/Aatrox_256x256.png"
-        },
-        "isActive": false
+  "bans": [
+    {
+      "champion": {
+        "id": 266,
+        "name": "Aatrox",
+        "idName": "Aatrox",
+        "loadingImg": "/cache/14.9.1/champion/Aatrox_loading.jpg",
+        "splashImg": "/cache/14.9.1/champion/Aatrox_splash.jpg",
+        "splashCenteredImg": "/cache/14.9.1/champion/Aatrox_centered_splash.jpg",
+        "squareImg": "http://localhost:8999/cache/14.9.1/champion/Aatrox_square.png",
+        "square256Img": "/assets/256x256/Aatrox_256x256.png"
       },
-      {
-        "champion": {
-          "id": 119,
-          "name": "Draven",
-          "idName": "Draven",
-          "loadingImg": "/cache/14.9.1/champion/Draven_loading.jpg",
-          "splashImg": "/cache/14.9.1/champion/Draven_splash.jpg",
-          "splashCenteredImg": "/cache/14.9.1/champion/Draven_centered_splash.jpg",
-          "squareImg": "http://localhost:8999/cache/14.9.1/champion/Draven_square.png",
-          "square256Img": "/assets/256x256/Draven_256x256.png"
-        },
-        "isActive": false
-      },
-      {
-        "champion": {
-          "id": 126,
-          "name": "Jayce",
-          "idName": "Jayce",
-          "loadingImg": "/cache/14.9.1/champion/Jayce_loading.jpg",
-          "splashImg": "/cache/14.9.1/champion/Jayce_splash.jpg",
-          "splashCenteredImg": "/cache/14.9.1/champion/Jayce_centered_splash.jpg",
-          "squareImg": "http://localhost:8999/cache/14.9.1/champion/Jayce_square.png",
-          "square256Img": "/assets/256x256/Jayce_256x256.png"
-        },
-        "isActive": false
-      },
-      {
-        "champion": {
-          "squareImg": "/static/media/ban_placeholder.7cd1d90f8ec2126b322f2a501be676a6.svg"
-        }
-      },
-      {
-        "champion": {
-          "squareImg": "/static/media/ban_placeholder.7cd1d90f8ec2126b322f2a501be676a6.svg"
-        }
-      }
-    ],
-    "picks": [
-      {
-        "isActive": false,
-        "displayName": "Tatrix",
-        "id": 0,
-        "spell1": {
-          "id": 6,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerHaste.png"
-        },
-        "spell2": {
-          "id": 1,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerBoost.png"
-        },
-        "champion": {
-          "id": 96,
-          "name": "Kog'Maw",
-          "idName": "KogMaw",
-          "loadingImg": "http://localhost:8999/cache/14.9.1/champion/KogMaw_loading.jpg",
-          "splashImg": "http://localhost:8999/cache/14.9.1/champion/KogMaw_splash.jpg",
-          "splashCenteredImg": "/cache/14.9.1/champion/KogMaw_centered_splash.jpg",
-          "squareImg": "http://localhost:8999/cache/14.9.1/champion/KogMaw_square.png",
-          "square256Img": "/assets/256x256/KogMaw_256x256.png"
-        }
-      },
-      {
-        "isActive": false,
-        "displayName": "Schmetterlinh",
-        "id": 1,
-        "spell1": {
-          "id": 7,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerHeal.png"
-        },
-        "spell2": {
-          "id": 4,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerFlash.png"
-        },
-        "champion": {
-          "id": 267,
-          "name": "Nami",
-          "idName": "Nami",
-          "loadingImg": "http://localhost:8999/cache/14.9.1/champion/Nami_loading.jpg",
-          "splashImg": "http://localhost:8999/cache/14.9.1/champion/Nami_splash.jpg",
-          "splashCenteredImg": "/cache/14.9.1/champion/Nami_centered_splash.jpg",
-          "squareImg": "http://localhost:8999/cache/14.9.1/champion/Nami_square.png",
-          "square256Img": "/assets/256x256/Nami_256x256.png"
-        }
-      },
-      {
-        "isActive": true,
-        "displayName": "xBlitzlichTx",
-        "id": 2,
-        "spell1": {
-          "id": 4,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerFlash.png"
-        },
-        "spell2": {
-          "id": 12,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerTeleport.png"
-        },
-        "champion": {
-          "loadingImg": "/static/media/mid_splash_placeholder.59441f411461edb9209d15107952636e.svg"
-        }
-      },
-      {
-        "isActive": false,
-        "displayName": "legofreak1",
-        "id": 3,
-        "spell1": {
-          "id": 12,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerTeleport.png"
-        },
-        "spell2": {
-          "id": 4,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerFlash.png"
-        },
-        "champion": {
-          "loadingImg": "/static/media/bot_splash_placeholder.f5f126101b394ebba4b6b0e632f48af9.svg"
-        }
-      },
-      {
-        "isActive": false,
-        "displayName": "Markishi",
-        "id": 4,
-        "spell1": {
-          "id": 4,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerFlash.png"
-        },
-        "spell2": {
-          "id": 14,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerDot.png"
-        },
-        "champion": {
-          "loadingImg": "/static/media/sup_splash_placeholder.4b7c3bd9aa99bee2feea8ee4d5a53bc9.svg"
-        }
-      }
-    ],
-    "isActive": true
-  },
-  "redTeam": {
-    "bans": [
-      {
-        "champion": {
-          "id": 136,
-          "name": "Aurelion Sol",
-          "idName": "AurelionSol",
-          "loadingImg": "/cache/14.9.1/champion/AurelionSol_loading.jpg",
-          "splashImg": "/cache/14.9.1/champion/AurelionSol_splash.jpg",
-          "splashCenteredImg": "/cache/14.9.1/champion/AurelionSol_centered_splash.jpg",
-          "squareImg": "http://localhost:8999/cache/14.9.1/champion/AurelionSol_square.png",
-          "square256Img": "/assets/256x256/AurelionSol_256x256.png"
-        },
-        "isActive": false
-      },
-      {
-        "champion": {
-          "id": 51,
-          "name": "Caitlyn",
-          "idName": "Caitlyn",
-          "loadingImg": "/cache/14.9.1/champion/Caitlyn_loading.jpg",
-          "splashImg": "/cache/14.9.1/champion/Caitlyn_splash.jpg",
-          "splashCenteredImg": "/cache/14.9.1/champion/Caitlyn_centered_splash.jpg",
-          "squareImg": "http://localhost:8999/cache/14.9.1/champion/Caitlyn_square.png",
-          "square256Img": "/assets/256x256/Caitlyn_256x256.png"
-        },
-        "isActive": false
-      },
-      {
-        "champion": {
-          "id": 26,
-          "name": "Zilean",
-          "idName": "Zilean",
-          "loadingImg": "/cache/14.9.1/champion/Zilean_loading.jpg",
-          "splashImg": "/cache/14.9.1/champion/Zilean_splash.jpg",
-          "splashCenteredImg": "/cache/14.9.1/champion/Zilean_centered_splash.jpg",
-          "squareImg": "http://localhost:8999/cache/14.9.1/champion/Zilean_square.png",
-          "square256Img": "/assets/256x256/Zilean_256x256.png"
-        },
-        "isActive": false
-      },
-      {
-        "champion": {
-          "squareImg": "/static/media/ban_placeholder.7cd1d90f8ec2126b322f2a501be676a6.svg"
-        }
-      },
-      {
-        "champion": {
-          "squareImg": "/static/media/ban_placeholder.7cd1d90f8ec2126b322f2a501be676a6.svg"
-        }
-      }
-    ],
-    "picks": [
-      {
-        "isActive": false,
-        "displayName": "Anticodon",
-        "id": 5,
-        "spell1": {
-          "id": 4,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerFlash.png"
-        },
-        "spell2": {
-          "id": 3,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerExhaust.png"
-        },
-        "champion": {
-          "id": 350,
-          "name": "Yuumi",
-          "idName": "Yuumi",
-          "loadingImg": "http://localhost:8999/cache/14.9.1/champion/Yuumi_loading.jpg",
-          "splashImg": "http://localhost:8999/cache/14.9.1/champion/Yuumi_splash.jpg",
-          "splashCenteredImg": "/cache/14.9.1/champion/Yuumi_centered_splash.jpg",
-          "squareImg": "http://localhost:8999/cache/14.9.1/champion/Yuumi_square.png",
-          "square256Img": "/assets/256x256/Yuumi_256x256.png"
-        }
-      },
-      {
-        "isActive": false,
-        "displayName": "Soul92fly",
-        "id": 6,
-        "spell1": {
-          "id": 4,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerFlash.png"
-        },
-        "spell2": {
-          "id": 14,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerDot.png"
-        },
-        "champion": {
-          "id": 236,
-          "name": "Lucian",
-          "idName": "Lucian",
-          "loadingImg": "http://localhost:8999/cache/14.9.1/champion/Lucian_loading.jpg",
-          "splashImg": "http://localhost:8999/cache/14.9.1/champion/Lucian_splash.jpg",
-          "splashCenteredImg": "/cache/14.9.1/champion/Lucian_centered_splash.jpg",
-          "squareImg": "http://localhost:8999/cache/14.9.1/champion/Lucian_square.png",
-          "square256Img": "/assets/256x256/Lucian_256x256.png"
-        }
-      },
-      {
-        "isActive": false,
-        "displayName": "Schnitzelbomber",
-        "id": 7,
-        "spell1": {
-          "id": 1,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerBoost.png"
-        },
-        "spell2": {
-          "id": 3,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerExhaust.png"
-        },
-        "champion": {
-          "loadingImg": "/static/media/mid_splash_placeholder.59441f411461edb9209d15107952636e.svg"
-        }
-      },
-      {
-        "isActive": false,
-        "displayName": "recon",
-        "id": 8,
-        "spell1": {
-          "id": 4,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerFlash.png"
-        },
-        "spell2": {
-          "id": 14,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerDot.png"
-        },
-        "champion": {
-          "loadingImg": "/static/media/bot_splash_placeholder.f5f126101b394ebba4b6b0e632f48af9.svg"
-        }
-      },
-      {
-        "isActive": false,
-        "displayName": "Wici",
-        "id": 9,
-        "spell1": {
-          "id": 4,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerFlash.png"
-        },
-        "spell2": {
-          "id": 12,
-          "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerTeleport.png"
-        },
-        "champion": {
-          "loadingImg": "/static/media/sup_splash_placeholder.4b7c3bd9aa99bee2feea8ee4d5a53bc9.svg"
-        }
-      }
-    ],
-    "isActive": false
-  },
-  "meta": {
-    "cdn": "https://ddragon.leagueoflegends.com/cdn",
-    "version": {
-      "champion": "14.9.1",
-      "item": "14.9.1"
-    }
-  },
-  "timer": 27,
-  "state": "PICK PHASE 1",
-  "config": {
-    "frontend": {
-      "scoreEnabled": true,
-      "spellsEnabled": true,
-      "coachesEnabled": true,
-      "blueTeam": {
-        "name": "Team Blue",
-        "score": 2,
-        "coach": "Coach Blue",
-        "color": "rgb(0,151,196)"
-      },
-      "redTeam": {
-        "name": "Team Red",
-        "score": 1,
-        "coach": "Coach Red",
-        "color": "rgb(222,40,70)"
-      },
-      "patch": "9.19"
+      "isActive": false
     },
-    "contentPatch": "latest",
-    "contentCdn": "https://ddragon.leagueoflegends.com/cdn"
-  }
+    {
+      "champion": {
+        "id": 119,
+        "name": "Draven",
+        "idName": "Draven",
+        "loadingImg": "/cache/14.9.1/champion/Draven_loading.jpg",
+        "splashImg": "/cache/14.9.1/champion/Draven_splash.jpg",
+        "splashCenteredImg": "/cache/14.9.1/champion/Draven_centered_splash.jpg",
+        "squareImg": "http://localhost:8999/cache/14.9.1/champion/Draven_square.png",
+        "square256Img": "/assets/256x256/Draven_256x256.png"
+      },
+      "isActive": false
+    },
+    {
+      "champion": {
+        "id": 126,
+        "name": "Jayce",
+        "idName": "Jayce",
+        "loadingImg": "/cache/14.9.1/champion/Jayce_loading.jpg",
+        "splashImg": "/cache/14.9.1/champion/Jayce_splash.jpg",
+        "splashCenteredImg": "/cache/14.9.1/champion/Jayce_centered_splash.jpg",
+        "squareImg": "http://localhost:8999/cache/14.9.1/champion/Jayce_square.png",
+        "square256Img": "/assets/256x256/Jayce_256x256.png"
+      },
+      "isActive": false
+    },
+    {
+      "champion": {
+        "squareImg": "/static/media/ban_placeholder.7cd1d90f8ec2126b322f2a501be676a6.svg"
+      }
+    },
+    {
+      "champion": {
+        "squareImg": "/static/media/ban_placeholder.7cd1d90f8ec2126b322f2a501be676a6.svg"
+      }
+    }
+  ],
+  "picks": [
+    {
+      "isActive": false,
+      "displayName": "Tatrix",
+      "id": 0,
+      "spell1": {
+        "id": 6,
+        "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerHaste.png"
+      },
+      "spell2": {
+        "id": 1,
+        "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerBoost.png"
+      },
+      "champion": {
+        "id": 96,
+        "name": "Kog'Maw",
+        "idName": "KogMaw",
+        "loadingImg": "http://localhost:8999/cache/14.9.1/champion/KogMaw_loading.jpg",
+        "splashImg": "http://localhost:8999/cache/14.9.1/champion/KogMaw_splash.jpg",
+        "splashCenteredImg": "http://localhost:8999/cache/14.9.1/champion/KogMaw_centered_splash.jpg",
+        "squareImg": "http://localhost:8999/cache/14.9.1/champion/KogMaw_square.png",
+        "square256Img": "/assets/256x256/KogMaw_256x256.png"
+      }
+    },
+    {
+      "isActive": false,
+      "displayName": "Schmetterlinh",
+      "id": 1,
+      "spell1": {
+        "id": 7,
+        "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerHeal.png"
+      },
+      "spell2": {
+        "id": 4,
+        "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerFlash.png"
+      },
+      "champion": {
+        "id": 267,
+        "name": "Nami",
+        "idName": "Nami",
+        "loadingImg": "http://localhost:8999/cache/14.9.1/champion/Nami_loading.jpg",
+        "splashImg": "http://localhost:8999/cache/14.9.1/champion/Nami_splash.jpg",
+        "splashCenteredImg": "http://localhost:8999/cache/14.9.1/champion/Nami_centered_splash.jpg",
+        "squareImg": "http://localhost:8999/cache/14.9.1/champion/Nami_square.png",
+        "square256Img": "/assets/256x256/Nami_256x256.png"
+      }
+    },
+    {
+      "isActive": true,
+      "displayName": "xBlitzlichTx",
+      "id": 2,
+      "spell1": {
+        "id": 4,
+        "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerFlash.png"
+      },
+      "spell2": {
+        "id": 12,
+        "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerTeleport.png"
+      },
+      "champion": {
+        "loadingImg": "/static/media/mid_splash_placeholder.59441f411461edb9209d15107952636e.svg"
+      }
+    },
+    {
+      "isActive": false,
+      "displayName": "legofreak1",
+      "id": 3,
+      "spell1": {
+        "id": 12,
+        "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerTeleport.png"
+      },
+      "spell2": {
+        "id": 4,
+        "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerFlash.png"
+      },
+      "champion": {
+        "loadingImg": "/static/media/bot_splash_placeholder.f5f126101b394ebba4b6b0e632f48af9.svg"
+      }
+    },
+    {
+      "isActive": false,
+      "displayName": "Markishi",
+      "id": 4,
+      "spell1": {
+        "id": 4,
+        "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerFlash.png"
+      },
+      "spell2": {
+        "id": 14,
+        "icon": "http://localhost:8999/cache/14.9.1/spell/SummonerDot.png"
+      },
+      "champion": {
+        "loadingImg": "/static/media/sup_splash_placeholder.4b7c3bd9aa99bee2feea8ee4d5a53bc9.svg"
+      }
+    }
+  ],
+  "isActive": true
 }
